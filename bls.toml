@@ -1,4 +1,4 @@
-name = "template_name"
+name = "sensitive_orange_sole-fcf6"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name-debug.wasm"
+entry = "sensitive_orange_sole-fcf6-debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name-release.wasm"
+entry = "sensitive_orange_sole-fcf6-release.wasm"
 command = "npm run build:release"
